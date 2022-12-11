@@ -18,6 +18,7 @@ export class App extends Component {
     showModal: false,
     largeImageURL: '',
     tags: '',
+    totalHits: null,
   };
 
   componentDidUpdate(_, prevState) {
